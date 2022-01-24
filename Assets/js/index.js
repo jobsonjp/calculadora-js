@@ -1,11 +1,25 @@
-const btn$ = document.getElementById("btnIncrementar")
-const contador$ = document.getElementById("contador")
+function insert(_numero){
+    var numero = document.getElementById('display').innerHTML
+    document.getElementById('display').innerHTML = numero + _numero
 
-let contador = 0
+}
 
-contador$.innerHTML = contador
+function limpar(){
+    document.getElementById('display').innerHTML = ""
+}
 
-btn$.addEventListener("click", function (){
-    contador++
-    contador$.innerHTML = contador
-})
+function limpaDigito(){
+    var resultado = document.getElementById('display').innerHTML
+    document.getElementById('display').innerHTML = resultado.substring(0, resultado.length - 1)
+}
+
+function calcular(){
+    let sentenca = document.getElementById('display').innerHTML 
+
+    if(sentenca){
+        document.getElementById('display').innerHTML = eval(sentenca)
+    }
+    else {
+        document.getElementById('display').innerHTML = "0"
+    }
+}
