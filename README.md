@@ -2,7 +2,7 @@
 
 Implementação de uma calculadora simples utilizando HTML, CSS e javascript.
 
-##Funções:
+## Funções:
 1. Somar
 2. Subtrair
 3. Multiplicar
@@ -10,7 +10,7 @@ Implementação de uma calculadora simples utilizando HTML, CSS e javascript.
 5. Limpar o último caractere digitado
 6. limpar toda a tela (função clear)
 
-##Restrições
+## Restrições
 1. Usar número de ponto flutuante
 2. Deve estar centralizada na tela
 3. Deve ter aparência de calculadora
